@@ -2,18 +2,23 @@
 
 const fish = document.getElementById("fish");
 
-let fishPosition = -50;
+let fishPosition = 0;
+let direction = 2;
 
 setInterval(() => {
-
-  fishPosition += 2;
+  fishPosition += direction;
 
   fish.style.left = fishPosition + "px";
 
-  if (fishPosition > window.innerWidth) {
-    fishPosition = -50;
+  if (fishPosition > window.innerWidth - 100) {
+    direction = -2;
+    fish.style.transform = "scaleX(1)";
   }
 
+  if (fishPosition < 0) {
+    direction = 2;
+    fish.style.transform = "scaleX(-1)";
+  }
 }, 20);
 
 
