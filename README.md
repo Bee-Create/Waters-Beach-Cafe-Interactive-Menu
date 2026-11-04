@@ -1,4 +1,4 @@
-<h2>Beach Waters Cafe</h2>
+<h2>Beach Waters Cafe - Interactive Menu</h2>
 <h3>View Live Page</h3>
 Visit <a href="https://bee-create.github.io/Beach-Waters-Cafe/">my live page</a> to see the code perform.<br>
 <h3>Purpose of This Project</h3>
