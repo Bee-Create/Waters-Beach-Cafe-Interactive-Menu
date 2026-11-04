@@ -1,0 +1,112 @@
+body {
+  margin: 0;
+  min-height: 100vh;
+
+  font-family: Verdana, sans-serif;
+
+  background: linear-gradient(
+      to bottom,
+      #90e0ef,
+      #caf0f8,
+      #ffffff
+  );
+}
+
+/* HEADER */
+
+header {
+  background-color: #0077b6;
+  color: white;
+  text-align: center;
+  padding: 1rem;
+}
+
+/* ORDER BOX */
+
+#order-summary {
+  background-color: white;
+
+  border-radius: 15px;
+
+  padding: 1rem;
+
+  margin-bottom: 2rem;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.15);
+
+  text-align: center;
+}
+
+/* MAIN */
+
+#cafe-menu {
+  max-width: 1000px;
+
+  margin: auto;
+
+  padding: 2rem;
+}
+
+/* MENU LAYOUT */
+
+.menu-section {
+  margin-bottom* 2rem;
+}
+
+.menu-items {
+  display: flex;
+
+  flex-direction: column;
+
+  gap: 10px;
+}
+
+/* MENU ITEMS */
+
+.menu-option {
+  background-col*r: white;
+
+  padding: 15px;
+
+  bor*er-radius: 12px;
+
+  cursor: pointer;
+
+  transition: all .3s ease;
+
+  border: 2px solid transparent;
+
+  box-shadow: 0 4px 10px rgba(0,0,0,.1);
+}
+
+/* HOVER */
+
+.menu-option:hover {
+  t*ansform: translateX(8px);
+
+  background-color: #caf0f8;
+}
+
+/* SELECTED ITEM */
+
+.selected {
+  border: 3px solid #ff7f50;
+
+  background-color: #fff5ee;
+
+  box-shadow: 0 0 15px rgba(255,127,80,.5);
+}
+
+/* FISH */
+
+#fish {
+  position: fixed;
+
+  top: 120px;
+
+  left: -50px;
+
+  font-size: 3rem;
+
+  z-index: 100;
+}
